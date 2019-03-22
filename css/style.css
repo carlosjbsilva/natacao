@@ -1,0 +1,110 @@
+header.principal {
+	padding-top: 10rem;
+	padding-bottom: calc(10rem - 72px);
+	background: url(img/principal.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+header.principal h1 {
+	font-size: 2.25rem;
+	color: white;
+}
+
+.fa-bars {
+  color:white;
+}
+
+@media (min-width: 992px) {
+	header.principal {
+		height: 100vh;
+	}
+	header.principal p {
+		font-size: 1.30rem;
+	}
+	header.principal h1 {
+		font-size: 3rem;
+	}
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+
+.page-section {
+	padding: 8rem 0;
+}
+
+#sobre{
+	background-color: #0CB9E8 !important;
+}
+
+#profissionais{
+	background-color: #0CB9E8 !important;
+}
+
+#servicos{
+  background-color: white !important;
+}
+
+#teste{
+  color: #0085FF; background-color: rgba(255,255,255,0.6); text-shadow: 1px #333; border-radius: 30px; padding-top: 5px; padding-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+	header.principal h1 {
+		font-size: 3.5rem;
+	}
+}
+
+#navItemColor, a{
+	color: white;
+}
+
+.btn-xl {
+	padding: 1.25rem 2.25rem;
+	font-size: 0.85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10rem;
+}
+
+.avatar{
+  width: 50px;
+  height: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}
+
+.google-maps {
+  position: relative; 
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.centralizar{
+  justify-content: center;
+  align-items: center;
+}
